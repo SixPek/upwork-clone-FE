@@ -1,0 +1,240 @@
+.find-talent-agencies{
+    padding: 20px 0;
+    background-color: $grayColor;
+    .find-talent-agencies-container{
+        .find-talent-agencies-container-list{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            a{
+                margin-right:30px;
+                width:calc(25% - 30px);
+                margin-bottom:30px;
+                text-decoration: none;
+                border-radius: 2px;
+                text-align: center;
+                color: black;
+                font-size: 16px;
+                box-shadow: 0 1px 6px rgba(57,73,76,.35);
+                img{
+                    width:100%;
+                }
+            }
+           
+        }
+        p{
+            text-align: center;
+            font-size: 14px;
+            line-height: 1.42857;
+            a{
+                text-decoration: none;
+                color: $mainColor;
+            }
+        }
+         
+    }
+
+}
+.background-container{
+    background-color: white;
+    .trusted-buisnis-container{
+        padding: 15px 0 25px;
+
+           h4{
+               text-align: center;
+               font-size: 19px;
+               
+           }
+           .trusted-buisnis-img-container{
+           display: flex;
+           justify-content: space-around;
+               
+           }
+       }
+       
+}
+.blank-container-gray{
+    background-color:$grayColor;
+    padding:20px 0;
+    .blank-width-container{
+        display: flex;
+        flex-direction: row;
+        .left-container{
+            width: 25%;
+            padding-top:80px;
+            padding-left:50px;
+            font-size: 19px;
+
+    
+
+        }
+        .right-container{
+            display: flex;
+            flex-direction: row;
+            width: 75%;
+            border: 1px solid rgba(128, 128, 128, 0.171);
+            background-color: white;
+            padding: 20px 30px;
+            margin: 30px 15px;
+            .blank-container{
+                
+                width:250.83px;
+                margin:20px 10px;
+                padding:15
+                10px 25px;
+                border-right: 1px solid rgba(128, 128, 128, 0.171);
+                justify-items: flex-end;
+
+             &:last-child{
+                    border-right: none;
+                }
+
+                .green-cont{
+                    width: 31px;
+                    height: 7px;
+                    background-color: #5bbc2e;
+                    margin: 0;
+                }
+                h3{
+                     padding: 0;  
+                     margin:10px 0;          
+                   }
+                   p{
+                       font-size: 15px;
+                       padding:0;
+                   }
+            }
+        }
+    }
+}
+.how-it-work-white{
+    background-color: white;
+    margin:50px 0;
+    .how-it-work-size{
+        text-align: center;
+      
+        .text-how-it-work{
+            display:flex;
+            justify-content: center;
+            h2{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                font-size: 40px;
+                margin-top: 50px;
+            }
+        }
+            .img-how-it-work{
+                justify-content: space-around;
+                display: flex;
+
+                flex-direction: row;
+               
+                .image-text-container{
+                    display: flex;
+                    flex-direction: column;
+                    h4{
+                    font-family: Arial, Helvetica, sans-serif;
+                        font-size: 17px;
+                        margin: 20px 0  0;
+                        color: rgba(0, 0, 0, 0.644);
+                    }
+                    p{
+                        font-size: 15px;
+                        text-align: center;
+                        padding: 0 5px;
+                        width: 262.5px;
+                                        }
+                    .img-container{
+                        img{
+                            width:111.54px;
+                        }
+                    }
+                   
+                }
+
+            }
+        
+
+    }
+}
+.blank-choose-offering-work-gray{
+    background-color: $grayColor;
+    padding-bottom: 60px;
+ 
+    .blank-width-container{
+     
+        text-align: center;
+    
+        display:flex;
+        flex-direction: column;
+        .notes{
+            padding-top: 20px;
+          p{
+              text-align: left;
+              font-size: 13px;
+              margin: 2px 0;
+          }
+        }
+        .text-choose-ofers-work{
+            padding:30px;
+
+            h2{
+            font-size: 35px;
+            margin: 10px 0;
+
+            }
+            p{
+                font-size: 13px;
+            }
+        }
+        .blank-border{
+
+            display: flex;
+            flex-direction: row;
+          .blank-border-container{
+            background-color: white;
+            border:1px solid rgba(128, 128, 128, 0.26);
+            box-shadow: 1px 1px 6px gainsboro;
+            margin: 0 15px;
+            width: calc(25% - 30px);
+            .top-container{
+            border-bottom: 1px solid rgba(128, 128, 128, 0.26);
+
+                padding: 20px 5px;
+                .btn-container{
+                    padding: 20px 0;
+                    a{
+                        padding: 11px 28px;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    span{
+                        font-weight: bold;
+                    }
+                   }
+            }
+            .bottom-container{
+                padding-bottom: 20px;
+                p{
+                    font-size: 14px;
+                    span{
+                        font-weight: bold;
+                    }
+                }
+                ul{
+                    li{
+                        text-align: left;
+                    padding: 7px 25px;
+                    }
+                }
+                a{
+                    text-decoration: none;
+                    color: $mainColor;
+                }
+                
+            }
+        }
+        }
+    }
+}

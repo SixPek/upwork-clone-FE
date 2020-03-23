@@ -1,0 +1,71 @@
+header {
+  width: 100%;
+  color: #fff;
+}
+header .navbar {
+  padding: 20px 0;
+  border-bottom: 1px solid gainsboro;
+}
+header .navbar .inner-navbar {
+  position: relative;
+  margin-left: 174.6px;
+  margin-right: 174.6px;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+}
+header .navbar .inner-navbar .left-bar {
+  position: relative;
+  width: 10%;
+}
+header .navbar .inner-navbar .left-bar img {
+  position: absolute;
+  max-width: 106px;
+  max-height: 30px;
+  left: 0;
+}
+header .navbar .inner-navbar .right-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 90%;
+}
+header .navbar .inner-navbar .right-bar .spacing {
+  flex-grow: 1;
+}
+header .navbar .inner-navbar .right-bar .search-container {
+  width: 321px;
+}
+header .navbar .inner-navbar .right-bar .search-container input {
+  width: 100%;
+  padding: 7px 13px;
+  border: 1px solid gainsboro;
+  color: gray;
+}
+header .navbar .inner-navbar .right-bar .navigation-links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #666666;
+  padding-right: 20px;
+}
+header .additional-links {
+  background-color: #f9f9f9;
+  width: 100%;
+}
+header .additional-links .test {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+header .additional-links .test a {
+  flex-grow: 1;
+  text-decoration: none;
+  color: #222;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=header.css.map */

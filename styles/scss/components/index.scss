@@ -188,10 +188,9 @@
             }
         }
         .blank-border{
-
             display: flex;
             flex-direction: row;
-          .blank-border-container{
+           .blank-border-container{
             background-color: white;
             border:1px solid rgba(128, 128, 128, 0.26);
             box-shadow: 1px 1px 6px gainsboro;
@@ -199,7 +198,6 @@
             width: calc(25% - 30px);
             .top-container{
             border-bottom: 1px solid rgba(128, 128, 128, 0.26);
-
                 padding: 20px 5px;
                 .btn-container{
                     padding: 20px 0;

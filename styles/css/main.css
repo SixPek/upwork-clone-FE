@@ -422,4 +422,144 @@ footer .footer-bootom p {
   color: #37A000;
 }
 
+.blank-customers-rate .width-container-customer-rate {
+  padding: 20px 0;
+}
+.blank-customers-rate .width-container-customer-rate .content-container a {
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.blank-customers-rate .width-container-customer-rate .content-container a h3 {
+  color: #7f7f7f;
+  font-size: 17px;
+  padding-top: 6px;
+}
+.blank-customers-rate .width-container-customer-rate .content-container a h3 span {
+  color: black;
+  padding-right: 15px;
+  padding-right: 15PX;
+}
+.blank-customers-rate .width-container-customer-rate .content-container a h4 {
+  padding-top: 6px;
+  font-size: 14px;
+  padding-right: 15px;
+  color: #d5763d;
+}
+.blank-customers-rate .width-container-customer-rate .content-container a h4 span {
+  color: black;
+}
+.blank-customers-rate .width-container-customer-rate .content-container a img {
+  padding-right: 15px;
+}
+
+.blank-top-skills-container {
+  padding: 20px 0;
+}
+.blank-top-skills-container .width-top-skills-container .text-container {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin: 0 0 30px;
+}
+.blank-top-skills-container .width-top-skills-container .skills-content .border-box .text-skills-border {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blank-top-skills-container .width-top-skills-container .skills-content .border-box .text-skills-border .text-skills {
+  display: flex;
+  flex-direction: column;
+}
+.blank-top-skills-container .width-top-skills-container .skills-content .border-box .text-skills-border .text-skills a {
+  font-weight: 400px;
+  color: #222;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+.blank-top-skills-container .width-top-skills-container .skills-content .border-box .text-skills-border .text-skills a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.blank-trening-skils-container {
+  padding: 20px 0;
+}
+.blank-trening-skils-container .width-blank-container .text-container h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin: 0 0 30px;
+}
+.blank-trening-skils-container .width-blank-container .blank-border {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blank-trening-skils-container .width-blank-container .blank-border .blank-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.blank-trening-skils-container .width-blank-container .blank-border .blank-text-container a {
+  font-weight: 400px;
+  color: #222;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+.blank-trening-skils-container .width-blank-container .blank-border .blank-text-container a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.blank-work-enterprise {
+  padding: 20px 0;
+}
+.blank-work-enterprise .width-container {
+  position: relative;
+  border: 1px solid gainsboro;
+  box-shadow: 1px 1px 6px gainsboro;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.blank-work-enterprise .width-container .text-box {
+  width: 70%;
+  text-align: left;
+  padding: 40px 0;
+}
+.blank-work-enterprise .width-container .text-box h4 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #37A000;
+  margin: 2px;
+}
+.blank-work-enterprise .width-container .text-box h2 {
+  color: #1d4354;
+  font-size: 32px;
+  margin: 0;
+}
+.blank-work-enterprise .width-container .btn {
+  height: -50;
+  transform: translateY(35%);
+}
+.blank-work-enterprise .width-container .btn .primary-button {
+  padding: 11px 28px;
+  text-align: center;
+  display: flex;
+}
+.blank-work-enterprise .width-container .btn .primary-button a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border: 2px solid transparent;
+  color: white;
+}
+
 /*# sourceMappingURL=main.css.map */

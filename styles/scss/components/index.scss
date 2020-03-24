@@ -236,3 +236,173 @@
         }
     }
 }
+
+.blank-customers-rate{
+    .width-container-customer-rate{
+        padding: 20px 0;
+       
+        .content-container{            
+            a{
+                text-decoration: none;
+                justify-content: center;
+                display: flex;
+                flex-direction: row;
+                h3{
+                    color: #7f7f7f;
+                    font-size: 17px;
+                    padding-top: 6px;
+
+                    span{
+                        color: black;
+                        padding-right: 15px;
+                        padding-right: 15PX;
+                    }
+                }
+                h4{
+                    padding-top: 6px;
+                    font-size: 14px;
+                    padding-right: 15px;
+                    color: #d5763d;
+                    span{
+                        color:black;
+                     }
+                    
+                }
+                img{
+                    padding-right: 15px;
+                }
+
+            }
+
+        }
+    }
+}
+
+.blank-top-skills-container{
+    padding:20px 0;
+   .width-top-skills-container{
+        .text-container{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            margin: 0 0 30px;
+        }
+        .skills-content{
+            .border-box{
+                .text-skills-border{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .text-skills{
+                        display:flex;
+                        flex-direction: column;
+                        a{
+                            font-weight: 400px;
+                            color: #222;
+                            text-decoration: none;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 14px;
+                            margin: 0 0 15px;
+                            padding: 0 15px;
+                            &:hover{
+                                text-decoration: underline;
+                                color: green;
+                            }
+
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+    
+
+}
+
+.blank-trening-skils-container{
+    padding:20px 0;
+    .width-blank-container{
+        .text-container{
+            h3{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: left;
+                margin: 0 0 30px;
+            }
+        }   
+        .blank-border{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .blank-text-container{
+                display: flex;
+                flex-direction: column;
+                a{
+                    font-weight: 400px;
+                    color: #222;
+                    text-decoration: none;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 14px;
+                    margin: 0 0 15px;
+                    padding: 0 15px;
+                    &:hover{
+                        text-decoration: underline;
+                        color: green;
+                    }
+
+                }
+
+            }
+        }
+
+
+    }
+}
+
+
+.blank-work-enterprise{
+    padding: 20px 0;
+    .width-container{
+        
+        position: relative;
+        border: 1px solid gainsboro;
+        box-shadow: 1px 1px 6px gainsboro;
+        display:flex;
+        flex-direction: row;
+       justify-content: center;
+        .text-box{
+            width:70%;
+            text-align: left;
+            padding: 40px 0;
+            h4{
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: $mainColor;
+                margin:2px;
+            }
+            h2{
+                color:#1d4354;
+                font-size: 32px;
+                margin: 0;
+            }
+        }
+        .btn{
+            height:-50;
+         transform:translateY(35%);
+        .primary-button{
+            padding: 11px 28px;
+            text-align: center;
+            display: flex;
+            a{
+                text-decoration: none;
+              font-weight: bold;
+               font-size: 14px;
+               font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                border:2px solid transparent;
+                color:white;
+            }
+            }
+        }
+    }
+}

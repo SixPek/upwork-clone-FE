@@ -8,8 +8,18 @@ padding:5px;
 
             border-bottom: 1px solid rgba(255, 255, 255, 0.212);
             text-align: center;
+            @include media-xs{
+                width: 100%;
+
+            }
             p{
+
                 color:rgba(255, 255, 255, 0.76);
+                @include media-xs{
+                   color: #e0e0e0;
+                   font-size: 13px;
+                   font-family: Arial, Helvetica, sans-serif;
+                }
                 a{
                     color:rgba(255, 255, 255, 0.76);
                 }
@@ -22,9 +32,16 @@ padding:5px;
             display:flex;
             flex-direction: row;
             justify-content: space-around;
+            @include media-xs{
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+
+            }
             .footer-body-lists-item{
             display:flex;
             flex-direction: column;
+         
             h4{
                color: white; 
                text-transform: uppercase;
@@ -37,6 +54,10 @@ padding:5px;
                     color:rgba(255, 255, 255, 0.815);
                     text-decoration: none;
                     padding-top: 10px;
+                   @include media-xs{
+                       font-size: 13px;
+                       text-align: center;
+                   }
                     &:hover{
                         text-decoration: underline;
                     }
@@ -50,6 +71,9 @@ padding:5px;
         p{
             color: white;
             padding:20px 0;
+            @include media-xs{
+                font-size: 10px;
+            }
         }
     }
 }

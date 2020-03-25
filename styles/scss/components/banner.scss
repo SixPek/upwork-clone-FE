@@ -5,25 +5,49 @@
     }
     .banner-content{
         padding: 50px 0;
-
         .banner-inner-container{
             max-width:480px;
+            @include media-xs{
+                padding-left: 20px;
+            }
+            @include media-sm{
+                padding-left:20px;
+            }
             h2{
                 margin:0;
-                
                 font-size: 52px;
                 color: $lightGreenColor;
+                @include media-xs{
+                    font-size: 36px;
+                    padding-right: 60px;
+                }
+                @include media-sm{
+                    font-size: 40px;
+                }
                 &:nth-child(2){
                     color: white;
+                    font-size: 32px;
                 }
             }
             p{
                 margin-top: 15px;
                 color: white;
                 font-size: 18px;
+                @include media-xs{
+                    display: none;
+                }
+                @include media-sm{
+                margin: 15px 0 30px 0;
+                font-size: 16px;
+                line-height: 24px;
+
+                }
             }
             .btn-container{
                 margin-top: 50px;
+                @include media-xs{
+                    margin-top: 30px;
+                }
                 a{
                     font-size: 16px;
                     padding: 11px 28px;

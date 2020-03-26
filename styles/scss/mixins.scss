@@ -10,3 +10,9 @@
     }
     
 }
+@mixin  media-md {
+    @media(max-width:1024px ) and (min-width: 992px){
+        @content;
+    }
+    
+}

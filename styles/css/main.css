@@ -63,6 +63,11 @@ header {
     width: 100%;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  header {
+    width: 100%;
+  }
+}
 header .navbar {
   padding: 20px 0;
   border-bottom: 1px solid gainsboro;
@@ -79,6 +84,11 @@ header .navbar {
     padding: 20px 0 10px 0;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  header .navbar {
+    padding: 15px;
+  }
+}
 header .navbar .inner-navbar {
   position: relative;
   margin-left: 174.6px;
@@ -88,14 +98,17 @@ header .navbar .inner-navbar {
 }
 @media (max-width: 767px) and (min-width: 0) {
   header .navbar .inner-navbar {
-    display: flex;
     margin: 0;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
   header .navbar .inner-navbar {
     margin: 0;
-    display: flex;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  header .navbar .inner-navbar {
+    margin: 0;
   }
 }
 header .navbar .inner-navbar .left-bar {
@@ -112,10 +125,23 @@ header .navbar .inner-navbar .left-bar {
     display: none;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  header .navbar .inner-navbar .left-bar {
+    width: 111px;
+    display: flex;
+    align-items: center;
+  }
+}
 header .navbar .inner-navbar .left-bar img {
   max-width: 106px;
   max-height: 30px;
-  left: 0;
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  header .navbar .inner-navbar .left-bar img {
+    display: flex;
+    height: 70px;
+    margin-right: 0;
+  }
 }
 header .navbar .inner-navbar .right-bar {
   display: flex;
@@ -134,11 +160,22 @@ header .navbar .inner-navbar .right-bar {
     display: none;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  header .navbar .inner-navbar .right-bar {
+    padding-left: 10px;
+  }
+}
 header .navbar .inner-navbar .right-bar .spacing {
   flex-grow: 1;
 }
 header .navbar .inner-navbar .right-bar .search-container {
   width: 321px;
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  header .navbar .inner-navbar .right-bar .search-container {
+    width: 320px;
+    padding: 8px 0;
+  }
 }
 header .navbar .inner-navbar .right-bar .search-container input {
   width: 100%;
@@ -166,6 +203,13 @@ header .navbar .inner-navbar .right-bar .navigation-links a {
     font-size: 14px;
     padding: 0;
     margin: 10px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  header .navbar .inner-navbar .right-bar .navigation-links a {
+    font-size: 13px;
+    padding: 0 12px;
+    margin: 0 4px;
   }
 }
 header .navbar .inner-navbar .right-bar .navigation-links a:hover {
@@ -288,11 +332,22 @@ header .additional-links .test {
     text-align: center;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  header .additional-links .test {
+    justify-content: space-around;
+    padding: 0 17px;
+  }
+}
 header .additional-links .test a {
   text-decoration: none;
   color: #222;
-  font-size: 15px;
+  font-size: 16px;
   padding: 10px 0;
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  header .additional-links .test a {
+    font-size: 13px;
+  }
 }
 
 footer {
@@ -403,6 +458,13 @@ footer .footer-bootom p {
 .banner-top .banner-content {
   padding: 50px 0;
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .banner-top .banner-content {
+    margin: 0 0 0 40px;
+    padding: 27px;
+    padding-bottom: 60px;
+  }
+}
 .banner-top .banner-content .banner-inner-container {
   max-width: 480px;
 }
@@ -432,9 +494,19 @@ footer .footer-bootom p {
     font-size: 40px;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .banner-top .banner-content .banner-inner-container h2 {
+    padding-right: 30px;
+  }
+}
 .banner-top .banner-content .banner-inner-container h2:nth-child(2) {
   color: white;
   font-size: 32px;
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .banner-top .banner-content .banner-inner-container h2:nth-child(2) {
+    font-size: 52px;
+  }
 }
 .banner-top .banner-content .banner-inner-container p {
   margin-top: 15px;
@@ -450,6 +522,12 @@ footer .footer-bootom p {
   .banner-top .banner-content .banner-inner-container p {
     margin: 15px 0 30px 0;
     font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .banner-top .banner-content .banner-inner-container p {
+    font-size: 13px;
     line-height: 24px;
   }
 }
@@ -488,6 +566,14 @@ footer .footer-bootom p {
     padding-bottom: 50px;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .find-talent-agencies .find-talent-agencies-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-bottom: 40px;
+  }
+}
 @media (max-width: 767px) and (min-width: 0) {
   .find-talent-agencies .find-talent-agencies-container h3 {
     text-align: center;
@@ -501,6 +587,11 @@ footer .footer-bootom p {
     color: #222222;
     padding-left: 79px;
     padding-bottom: 20px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .find-talent-agencies .find-talent-agencies-container h3 {
+    padding-left: 45px;
   }
 }
 .find-talent-agencies .find-talent-agencies-container .find-talent-agencies-container-list {
@@ -517,6 +608,11 @@ footer .footer-bootom p {
 @media (max-width: 991px) and (min-width: 768px) {
   .find-talent-agencies .find-talent-agencies-container .find-talent-agencies-container-list {
     width: 100%;
+    justify-content: center;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .find-talent-agencies .find-talent-agencies-container .find-talent-agencies-container-list {
     justify-content: center;
   }
 }
@@ -545,6 +641,16 @@ footer .footer-bootom p {
     margin-right: 30px;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .find-talent-agencies .find-talent-agencies-container .find-talent-agencies-container-list a {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 212.5px;
+    background-color: white;
+  }
+}
 .find-talent-agencies .find-talent-agencies-container .find-talent-agencies-container-list a img {
   width: 100%;
 }
@@ -553,6 +659,12 @@ footer .footer-bootom p {
     width: 20%;
     margin: 0;
     object-fit: cover;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .find-talent-agencies .find-talent-agencies-container .find-talent-agencies-container-list a img {
+    width: 212.5px;
+    padding: 0px;
   }
 }
 @media (max-width: 767px) and (min-width: 0) {
@@ -572,6 +684,16 @@ footer .footer-bootom p {
     font-family: Arial, Helvetica, sans-serif;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .find-talent-agencies .find-talent-agencies-container .find-talent-agencies-container-list a p {
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    padding: 9px 0;
+    background-color: white;
+  }
+}
 .find-talent-agencies .find-talent-agencies-container p {
   text-align: center;
   font-size: 14px;
@@ -580,6 +702,11 @@ footer .footer-bootom p {
 @media (max-width: 991px) and (min-width: 768px) {
   .find-talent-agencies .find-talent-agencies-container p {
     font-size: 13px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .find-talent-agencies .find-talent-agencies-container p {
+    padding: 15px 0;
   }
 }
 .find-talent-agencies .find-talent-agencies-container p a {
@@ -1522,10 +1649,18 @@ footer .footer-bootom p {
     padding: 10px 0 20px 0;
   }
 }
+.blank-work-enterprise .width-container a {
+  padding: 12px 16px;
+}
 @media (max-width: 767px) and (min-width: 0) {
-  .blank-work-enterprise .width-container .text-box .btn {
+  .blank-work-enterprise .width-container a {
     margin-left: 20px;
     margin-bottom: 60px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .blank-work-enterprise .width-container a {
+    padding: 10px 12px;
   }
 }
 

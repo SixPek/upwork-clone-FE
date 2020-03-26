@@ -197,7 +197,13 @@ header{
     .additional-links{
         background-color: #f9f9f9;
         width: 100%;
-        display: none;
+        @include media-xs{
+            display: none;
+        }
+        @include media-sm{
+            display: none;
+        }
+
 
         .test{
             display: flex;

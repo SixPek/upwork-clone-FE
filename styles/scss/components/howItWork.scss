@@ -27,6 +27,7 @@ header{
         }
         @include media-md{
          padding: 15px;
+         width: 100%;
         }
         .inner-navbar{
             position: relative;
@@ -42,6 +43,8 @@ header{
             }
             @include media-md{
                 margin:0;
+                width: 100%;
+                background-position: right;
             }
 
         .left-bar{   
@@ -57,6 +60,7 @@ header{
                 width: 111px;
                 display: flex;
                 align-items: center;
+                padding-left: 30px;
                 
             }
             img{
@@ -83,7 +87,8 @@ header{
                 display: none;
             }
             @include media-md{
-                padding-left: 10px;
+                padding-left: 40px;
+                padding-right: 40px;
             }
           
             .spacing{
@@ -106,8 +111,9 @@ header{
 
                 }
                 @include media-md{
-                    width: 320px;
                     padding: 8px 0;
+                    width: 25%;
+
                 }
 
             
@@ -118,6 +124,9 @@ header{
                     color: gray;
                     &:hover{
                         border:1px solid grey;
+                     }
+                     @include media-md{
+                         padding: 10px 15px 10px 35px;
                      }
                 }
             }
@@ -141,6 +150,14 @@ header{
                        font-size: 13px;
                        padding: 0 12px;
                        margin: 0 4px;
+                       color: black;
+                       font-weight: bold;
+                   }
+                   &:first-child{
+                    @include media-md{
+                    color:#37a000;
+
+                    }
                    }
 
                    &:hover{
@@ -316,7 +333,12 @@ header{
         display: none;
     }
     @include media-sm{
-      
+        background-size: auto 120%;
+        background-position:center;
+      }
+    @include media-md{
+      background-size: auto 150%;
+      background-position:center ;
     }
     }
     .jumbo-tron{
@@ -382,6 +404,9 @@ header{
                     }
                     @include media-sm{
                         padding: 11px 38px;
+                    }
+                    @include media-md{
+                        padding:10px 30px;
                     }
                 }
             }
@@ -454,7 +479,9 @@ header{
     }
     @include media-sm{
         width: 100%;
-
+    }
+    @include media-md{
+        width: 100%;
     }
     .width-container{
         width: 1200px;
@@ -473,8 +500,18 @@ header{
             flex-direction: column;
             padding: 0 15px;
         }
+        @include media-md{
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 40px;
+           
+        }
         .top-container{
             display: block;
+            @include media-md{
+                width: 50%;
+            }
             h2{
                 padding-left: 15px;
                 font-size: 45px;
@@ -488,6 +525,10 @@ header{
                     font-size: 30px;
                     text-align: center;
                 }
+                @include media-md{
+                    font-size: 40px;
+                }
+                
             }
         }
         .bottom-container{
@@ -499,6 +540,11 @@ header{
             }
             @include media-sm{
                 flex-direction: column-reverse;
+            }
+            @include media-md{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
             }
             .left-container{
                 width:50%;
@@ -515,6 +561,9 @@ header{
                     margin-left: auto;
                     margin-right: auto;
                     
+                }
+                @include media-md{
+                    width: 50%;
                 }
                 p{
                     padding:20px 0 20px;
@@ -618,8 +667,10 @@ header{
                 }
                 @include media-sm{
                     width: 100%;
-                   
                     display: block;
+                }
+                @include media-md{
+                    width:50%;
                 }
                 img{
                     
@@ -641,10 +692,18 @@ header{
                         left: unset;
                         transform: unset;
                         display: block;
-                        width: 65%;
+                        width: 100%;
+                                           
+                    }
+                    @include media-md{
+                        position: relative;
+                        top:unset;
+                        left: unset;
+                        transform: unset;
+                        display: block;
+                        width: 75%;
                         margin-left: auto;
-                        margin-right: auto;
-                        
+                        margin-right: auto;   
                     }
                 }
      
@@ -656,6 +715,9 @@ header{
 
 .hire-the-best{
     margin-bottom: 100px;
+    @include media-md{
+        margin-bottom: 40px;
+    }
     .width-container{
         width: 1200px;
         margin-left: auto;
@@ -669,6 +731,9 @@ header{
         @include media-sm{
             width: 100%;
             flex-direction: column;
+        }
+        @include media-md{
+            width: 100%;
         }
         .left-container{
             width: 50%;
@@ -697,18 +762,30 @@ header{
                     padding-top: 50px;
 
                 }
+                @include media-md{
+                    left: unset;
+                    top: unset;
+                    padding-top: 50px;
+                }
                 img{
 
                     position: absolute;
                     width: 80%;
                     @include media-xs{
                         position: relative;
-                        width: 88%;
-                   
+                        width: 88%;  
                     }
                     @include media-sm{
                         position: relative;
                         width: 60%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    @include media-md{
+                        position: relative;
+                        display: block;
+                        width: 70%;
+                        padding-top:140px;
                         margin-left: auto;
                         margin-right: auto;
                     }
@@ -767,6 +844,9 @@ header{
                             font:14px ;
                             line-height: 22px;
                         }
+                        @include media-md{
+                            padding: 0;
+                        }
                     }
                     ul{
                         padding: 15px;
@@ -789,6 +869,9 @@ header{
                                 text-decoration: none;
                                 color: green;
                                 font-weight: bold;
+                                @include media-md{
+                                    padding: 15px 0;
+                                }
                             }
                         }
                        
@@ -801,6 +884,9 @@ header{
                                 @include media-sm{
                                     width: 90%;
                                 }
+                                @include media-md{
+                                    width: 90%;
+                                 }
 
                                 &:first-child{
                                     border-bottom: none;
@@ -821,7 +907,7 @@ header{
                                         letter-spacing: 1.1px;
                                         line-height: 22px;
                                     }
-
+                                  
                                     
                                         &::before{
                                             content: "";
@@ -863,6 +949,12 @@ padding: 50px 0;
     width: 100%;
     padding-top: 0;
 }
+@include media-md{
+    width: 100%;
+}
+@include media-md{
+    width: 100%;
+}
     .width-container{
         padding-bottom: 10px;
         width: 1200px;
@@ -879,6 +971,9 @@ padding: 50px 0;
             width: 80%;
             flex-direction: column-reverse;
         }
+        @include media-md{
+            width: 90%;
+        }
         .left-container{
             padding-bottom: 40px;
             width: 50%;
@@ -891,6 +986,9 @@ padding: 50px 0;
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
+            }
+            @include media-md{
+                width: 50%;
             }
             .top-container{
                 
@@ -906,6 +1004,9 @@ padding: 50px 0;
                     @include media-sm{
                         font-size: 30px;
                         padding-top: 50px;
+                    }
+                    @include media-md{
+                        font-size: 40px;
                     }
                 }
             }
@@ -924,6 +1025,9 @@ padding: 50px 0;
                     }
                     @include media-sm{
                         font-size: 14px;
+                    }
+                    @include media-md{
+                        padding-bottom: 15px;
                     }
                 }
                 ul{ 
@@ -966,6 +1070,11 @@ padding: 50px 0;
                     border-bottom: 1px solid gainsboro;
                     border-top: 1px solid gainsboro;
                     padding: 15px 0;
+                    @include media-md{
+                        width: 90%;
+                        flex-wrap: wrap;
+                    }
+
                     a{
                         position: relative;
                         width: 100%;
@@ -978,8 +1087,14 @@ padding: 50px 0;
                             padding-right: 50px;
                             letter-spacing: 1.1px;
                             line-height: 20px;
-                        }
 
+                        }
+                        @include media-md{
+                            width: 100%;
+                            padding-right: 30px;
+                            line-height: 22px;
+                        }
+                      
                         &::after{
                             content: "";
                             position: absolute;
@@ -992,6 +1107,9 @@ padding: 50px 0;
                             transform: rotate(45deg);
                             @include media-xs{
                                 margin-left:21px;
+                            }
+                            @include media-md{
+                              
                             }
                            
                         }
@@ -1014,13 +1132,19 @@ padding: 50px 0;
                 width: 100%;
                 padding-bottom: 50px;
             }
+            @include media-md{
+                width: 50%;
+            }
             .img-container{
                 position: relative;
-                display: flex;
                 width: 100%;
                 @include media-xs{
                     display: flex;
                     justify-content: center;
+                }
+                @include media-md{
+                    width: 100%;
+                    padding-top: 100px;
                 }
                 img{
                     padding-top: 40px;
@@ -1043,8 +1167,16 @@ padding: 50px 0;
                         margin-left: auto;
                         margin-right: auto;
                         width: 38%;
-                        padding-top: 10px;
-                        
+                        padding-top: 10px;                      
+                    }
+                    @include media-md{
+                        position: relative;
+                        left: unset;
+                        bottom: unset;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 50%;
                     }
                 }
             }
@@ -1053,6 +1185,9 @@ padding: 50px 0;
 }
 
 .pay{
+    @include media-md{
+        width: 100%;
+    }
     .width-container{
         width: 1200px;
         margin-left: auto;
@@ -1068,7 +1203,9 @@ padding: 50px 0;
     @include media-sm{
         width: 100%;
         flex-direction: column;
-
+    }
+    @include media-md{
+        width: 90%;
     }
 
     }
@@ -1082,6 +1219,9 @@ padding: 50px 0;
         }
         @include media-sm{
             width: 100%;
+        }
+        @include media-md{
+            width: 50%;
         }
         .img-container{
         position: relative;
@@ -1110,7 +1250,17 @@ padding: 50px 0;
                    display: block;
                    margin-left: auto;
                    margin-right: auto;
-                   width: 60%;
+                   width:60%;
+               }
+               @include media-md{
+                position: relative;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 90%;
+                padding-top: 80px;
+                padding-right: 20px;
+            
                }
             }
         }
@@ -1128,11 +1278,19 @@ padding: 50px 0;
             margin-left: auto;
             margin-right: auto;
         }
+        @include media-md{
+            width: 50%;
+            padding: 0;
+        }
 
         .top-container{
             @include media-sm{
                 width: 100%;
                 padding-top: 50px;
+                
+            }
+            @include media-md{
+                width: 100%;
             }
             h2{
                 font-size: 40px;
@@ -1150,6 +1308,9 @@ padding: 50px 0;
                     text-align: left;
                     font-size: 30px;
                     padding-top: 50px;
+                }
+                @include media-md{
+                    width: 100%;
                 }
             }
         }
@@ -1230,6 +1391,9 @@ padding: 50px 0;
 
 .ready-find-freelancers{
     background-color: #37a000;
+    @include media-md{
+        width: 100%;
+    }
     
     .width-container{
         width: 1200px;
@@ -1237,10 +1401,13 @@ padding: 50px 0;
         margin-right: auto;
         padding-bottom: 40px;
         @include media-xs{
-            width: 100%;
+            width: 80%;
         }
         @include media-sm{
             width: 100%;
+        }
+        @include media-md{
+            width: 70%;
         }
         .text-container{
             h1{

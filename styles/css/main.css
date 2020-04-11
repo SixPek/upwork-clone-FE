@@ -3063,6 +3063,7 @@ header .navbar {
 @media (max-width: 1024px) and (min-width: 992px) {
   header .navbar {
     padding: 15px;
+    width: 100%;
   }
 }
 header .navbar .inner-navbar {
@@ -3085,6 +3086,8 @@ header .navbar .inner-navbar {
 @media (max-width: 1024px) and (min-width: 992px) {
   header .navbar .inner-navbar {
     margin: 0;
+    width: 100%;
+    background-position: right;
   }
 }
 header .navbar .inner-navbar .left-bar {
@@ -3106,6 +3109,7 @@ header .navbar .inner-navbar .left-bar {
     width: 111px;
     display: flex;
     align-items: center;
+    padding-left: 30px;
   }
 }
 header .navbar .inner-navbar .left-bar img {
@@ -3138,7 +3142,8 @@ header .navbar .inner-navbar .right-bar {
 }
 @media (max-width: 1024px) and (min-width: 992px) {
   header .navbar .inner-navbar .right-bar {
-    padding-left: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 header .navbar .inner-navbar .right-bar .spacing {
@@ -3161,8 +3166,8 @@ header .navbar .inner-navbar .right-bar .search-container::before {
 }
 @media (max-width: 1024px) and (min-width: 992px) {
   header .navbar .inner-navbar .right-bar .search-container {
-    width: 320px;
     padding: 8px 0;
+    width: 25%;
   }
 }
 header .navbar .inner-navbar .right-bar .search-container input {
@@ -3173,6 +3178,11 @@ header .navbar .inner-navbar .right-bar .search-container input {
 }
 header .navbar .inner-navbar .right-bar .search-container input:hover {
   border: 1px solid grey;
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  header .navbar .inner-navbar .right-bar .search-container input {
+    padding: 10px 15px 10px 35px;
+  }
 }
 @media (max-width: 991px) and (min-width: 768px) {
   header .navbar .inner-navbar .right-bar .navigation-links {
@@ -3198,6 +3208,13 @@ header .navbar .inner-navbar .right-bar .navigation-links a {
     font-size: 13px;
     padding: 0 12px;
     margin: 0 4px;
+    color: black;
+    font-weight: bold;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  header .navbar .inner-navbar .right-bar .navigation-links a:first-child {
+    color: #37a000;
   }
 }
 header .navbar .inner-navbar .right-bar .navigation-links a:hover {
@@ -3373,6 +3390,18 @@ header .additional-links .test a {
     display: none;
   }
 }
+@media (max-width: 991px) and (min-width: 768px) {
+  .how-it-work-banner .background-img {
+    background-size: auto 120%;
+    background-position: center;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .how-it-work-banner .background-img {
+    background-size: auto 150%;
+    background-position: center;
+  }
+}
 @media (max-width: 767px) and (min-width: 0) {
   .how-it-work-banner .jumbo-tron {
     width: 100%;
@@ -3454,6 +3483,11 @@ header .additional-links .test a {
     padding: 11px 38px;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .how-it-work-banner .jumbo-tron .how-it-work-text-conttainer .btn-container a {
+    padding: 10px 30px;
+  }
+}
 .how-it-work-banner .jumbo-tron .nav-bottom {
   position: absolute;
   width: 46%;
@@ -3530,6 +3564,11 @@ header .additional-links .test a {
     width: 100%;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .easily-quality-matches {
+    width: 100%;
+  }
+}
 .easily-quality-matches .width-container {
   width: 1200px;
   margin-left: auto;
@@ -3552,8 +3591,21 @@ header .additional-links .test a {
     padding: 0 15px;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .easily-quality-matches .width-container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+  }
+}
 .easily-quality-matches .width-container .top-container {
   display: block;
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .easily-quality-matches .width-container .top-container {
+    width: 50%;
+  }
 }
 .easily-quality-matches .width-container .top-container h2 {
   padding-left: 15px;
@@ -3573,6 +3625,11 @@ header .additional-links .test a {
     text-align: center;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .easily-quality-matches .width-container .top-container h2 {
+    font-size: 40px;
+  }
+}
 .easily-quality-matches .width-container .bottom-container {
   display: flex;
   flex-direction: row;
@@ -3586,6 +3643,13 @@ header .additional-links .test a {
 @media (max-width: 991px) and (min-width: 768px) {
   .easily-quality-matches .width-container .bottom-container {
     flex-direction: column-reverse;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .easily-quality-matches .width-container .bottom-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
   }
 }
 .easily-quality-matches .width-container .bottom-container .left-container {
@@ -3606,6 +3670,11 @@ header .additional-links .test a {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .easily-quality-matches .width-container .bottom-container .left-container {
+    width: 50%;
   }
 }
 .easily-quality-matches .width-container .bottom-container .left-container p {
@@ -3720,6 +3789,11 @@ header .additional-links .test a {
     display: block;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .easily-quality-matches .width-container .bottom-container .right-container {
+    width: 50%;
+  }
+}
 .easily-quality-matches .width-container .bottom-container .right-container img {
   position: absolute;
   top: 30%;
@@ -3743,7 +3817,17 @@ header .additional-links .test a {
     left: unset;
     transform: unset;
     display: block;
-    width: 65%;
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .easily-quality-matches .width-container .bottom-container .right-container img {
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: unset;
+    display: block;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -3751,6 +3835,11 @@ header .additional-links .test a {
 
 .hire-the-best {
   margin-bottom: 100px;
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .hire-the-best {
+    margin-bottom: 40px;
+  }
 }
 .hire-the-best .width-container {
   width: 1200px;
@@ -3769,6 +3858,11 @@ header .additional-links .test a {
   .hire-the-best .width-container {
     width: 100%;
     flex-direction: column;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .hire-the-best .width-container {
+    width: 100%;
   }
 }
 .hire-the-best .width-container .left-container {
@@ -3806,6 +3900,13 @@ header .additional-links .test a {
     padding-top: 50px;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .hire-the-best .width-container .left-container .img-container {
+    left: unset;
+    top: unset;
+    padding-top: 50px;
+  }
+}
 .hire-the-best .width-container .left-container .img-container img {
   position: absolute;
   width: 80%;
@@ -3820,6 +3921,16 @@ header .additional-links .test a {
   .hire-the-best .width-container .left-container .img-container img {
     position: relative;
     width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .hire-the-best .width-container .left-container .img-container img {
+    position: relative;
+    display: block;
+    width: 70%;
+    padding-top: 140px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -3889,6 +4000,11 @@ header .additional-links .test a {
     line-height: 22px;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .hire-the-best .width-container .right-container .bottom-container p {
+    padding: 0;
+  }
+}
 .hire-the-best .width-container .right-container .bottom-container ul {
   padding: 15px;
 }
@@ -3917,12 +4033,22 @@ header .additional-links .test a {
   color: green;
   font-weight: bold;
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .hire-the-best .width-container .right-container .bottom-container ul li a {
+    padding: 15px 0;
+  }
+}
 .hire-the-best .width-container .right-container .bottom-container .bottom-link .btn-container {
   border-top: 1px solid gainsboro;
   border-bottom: 1px solid gainsboro;
   padding: 20px 0;
 }
 @media (max-width: 991px) and (min-width: 768px) {
+  .hire-the-best .width-container .right-container .bottom-container .bottom-link .btn-container {
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
   .hire-the-best .width-container .right-container .bottom-container .bottom-link .btn-container {
     width: 90%;
   }
@@ -3981,6 +4107,16 @@ header .additional-links .test a {
     padding-top: 0;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .work {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .work {
+    width: 100%;
+  }
+}
 .work .width-container {
   padding-bottom: 10px;
   width: 1200px;
@@ -4002,6 +4138,11 @@ header .additional-links .test a {
     flex-direction: column-reverse;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .work .width-container {
+    width: 90%;
+  }
+}
 .work .width-container .left-container {
   padding-bottom: 40px;
   width: 50%;
@@ -4020,6 +4161,11 @@ header .additional-links .test a {
     margin-right: auto;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .work .width-container .left-container {
+    width: 50%;
+  }
+}
 .work .width-container .left-container .top-container h2 {
   margin-top: 5px;
   font-size: 40px;
@@ -4036,6 +4182,11 @@ header .additional-links .test a {
   .work .width-container .left-container .top-container h2 {
     font-size: 30px;
     padding-top: 50px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .work .width-container .left-container .top-container h2 {
+    font-size: 40px;
   }
 }
 .work .width-container .left-container .bottom-container {
@@ -4057,6 +4208,11 @@ header .additional-links .test a {
 @media (max-width: 991px) and (min-width: 768px) {
   .work .width-container .left-container .bottom-container p {
     font-size: 14px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .work .width-container .left-container .bottom-container p {
+    padding-bottom: 15px;
   }
 }
 .work .width-container .left-container .bottom-container ul {
@@ -4102,6 +4258,12 @@ header .additional-links .test a {
   border-top: 1px solid gainsboro;
   padding: 15px 0;
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .work .width-container .left-container .bottom-container .link-bottom {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+}
 .work .width-container .left-container .bottom-container .link-bottom a {
   position: relative;
   width: 100%;
@@ -4116,6 +4278,13 @@ header .additional-links .test a {
     padding-right: 50px;
     letter-spacing: 1.1px;
     line-height: 20px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .work .width-container .left-container .bottom-container .link-bottom a {
+    width: 100%;
+    padding-right: 30px;
+    line-height: 22px;
   }
 }
 .work .width-container .left-container .bottom-container .link-bottom a::after {
@@ -4150,15 +4319,25 @@ header .additional-links .test a {
     padding-bottom: 50px;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .work .width-container .right-container {
+    width: 50%;
+  }
+}
 .work .width-container .right-container .img-container {
   position: relative;
-  display: flex;
   width: 100%;
 }
 @media (max-width: 767px) and (min-width: 0) {
   .work .width-container .right-container .img-container {
     display: flex;
     justify-content: center;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .work .width-container .right-container .img-container {
+    width: 100%;
+    padding-top: 100px;
   }
 }
 .work .width-container .right-container .img-container img {
@@ -4189,7 +4368,23 @@ header .additional-links .test a {
     padding-top: 10px;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .work .width-container .right-container .img-container img {
+    position: relative;
+    left: unset;
+    bottom: unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
 
+@media (max-width: 1024px) and (min-width: 992px) {
+  .pay {
+    width: 100%;
+  }
+}
 .pay .width-container {
   width: 1200px;
   margin-left: auto;
@@ -4211,6 +4406,11 @@ header .additional-links .test a {
     flex-direction: column;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .pay .width-container {
+    width: 90%;
+  }
+}
 .pay .left-container {
   width: 50%;
   align-content: right;
@@ -4225,6 +4425,11 @@ header .additional-links .test a {
 @media (max-width: 991px) and (min-width: 768px) {
   .pay .left-container {
     width: 100%;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .pay .left-container {
+    width: 50%;
   }
 }
 .pay .left-container .img-container {
@@ -4265,6 +4470,17 @@ header .additional-links .test a {
     width: 60%;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .pay .left-container .img-container img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-top: 80px;
+    padding-right: 20px;
+  }
+}
 .pay .right-container {
   width: 50%;
   padding: 0 15px;
@@ -4283,10 +4499,21 @@ header .additional-links .test a {
     margin-right: auto;
   }
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .pay .right-container {
+    width: 50%;
+    padding: 0;
+  }
+}
 @media (max-width: 991px) and (min-width: 768px) {
   .pay .right-container .top-container {
     width: 100%;
     padding-top: 50px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .pay .right-container .top-container {
+    width: 100%;
   }
 }
 .pay .right-container .top-container h2 {
@@ -4309,6 +4536,11 @@ header .additional-links .test a {
     text-align: left;
     font-size: 30px;
     padding-top: 50px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .pay .right-container .top-container h2 {
+    width: 100%;
   }
 }
 .pay .right-container .bottom-container {
@@ -4394,6 +4626,11 @@ header .additional-links .test a {
 .ready-find-freelancers {
   background-color: #37a000;
 }
+@media (max-width: 1024px) and (min-width: 992px) {
+  .ready-find-freelancers {
+    width: 100%;
+  }
+}
 .ready-find-freelancers .width-container {
   width: 1200px;
   margin-left: auto;
@@ -4402,12 +4639,17 @@ header .additional-links .test a {
 }
 @media (max-width: 767px) and (min-width: 0) {
   .ready-find-freelancers .width-container {
-    width: 100%;
+    width: 80%;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .ready-find-freelancers .width-container {
     width: 100%;
+  }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+  .ready-find-freelancers .width-container {
+    width: 70%;
   }
 }
 .ready-find-freelancers .width-container .text-container h1 {

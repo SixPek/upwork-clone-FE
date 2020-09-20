@@ -40,7 +40,7 @@ let counter=0;
 let inputs=document.querySelectorAll(".top-container input");
 let stepsCounter=inputs.length;
 let stepInfo=document.getElementsByClassName("step-info")[0];
-stepInfo.innerHTML=(counter+1) +" of "+stepsCounter;
+stepInfo.innerHTML="step " + (counter+1) +" of "+stepsCounter;
 document.getElementById("button").addEventListener("click", function(){
         if(inputs[counter].value == ""){
             inputs[counter].classList.add("error");
@@ -49,7 +49,7 @@ document.getElementById("button").addEventListener("click", function(){
             inputs[counter].classList.add("hidden");
             inputs[counter+1].classList.remove("hidden");
             counter++;
-            stepInfo.innerHTML="step "(counter+1) +" of "+stepsCounter;
+            stepInfo.innerHTML= "step " + (counter+1) +" of "+stepsCounter;
         }
     
 })

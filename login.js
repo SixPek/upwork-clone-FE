@@ -43,17 +43,17 @@ let stepInfo=document.getElementsByClassName("step-info")[0];
 stepInfo.innerHTML="step " + (counter+1) +" of "+stepsCounter;
 
 document.getElementById("button").addEventListener("click", function(){
-    console.log(counter + 1, stepsCounter);
-    if(counter + 1 >= stepsCounter){
-        window.location.href = '/'; 
-    }else{
         if(inputs[counter].value == ""){
             inputs[counter].classList.add("error");
         }else{
             inputs[counter].classList.add("hidden");
-            inputs[counter+1].classList.remove("hidden");
+            if(inputs[counter + 1] != undefined){
+                inputs[counter+1].classList.remove("hidden");
+            }
             counter++;
             stepInfo.innerHTML= "step " + (counter+1) +" of "+stepsCounter;
+            if(counter >= stepsCounter){
+                window.location.href = '/'; 
+            }
         }
-    }
 })

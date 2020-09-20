@@ -49,7 +49,7 @@ document.getElementById("button").addEventListener("click", function(){
             inputs[counter].classList.add("hidden");
             inputs[counter+1].classList.remove("hidden");
             counter++;
-            stepInfo.innerHTML=(counter+1) +" of "+stepsCounter;
+            stepInfo.innerHTML="step "(counter+1) +" of "+stepsCounter;
         }
     
 })
